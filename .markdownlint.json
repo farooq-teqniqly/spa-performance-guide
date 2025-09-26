@@ -12,7 +12,7 @@
   "MD041": {
     "front_matter_title": ""
   },
-  "*performance-guide.md": {
+  "**/performance-guide.md": {
     "MD013": {
       "line_length": 150,
       "code_blocks": false,
