@@ -170,8 +170,8 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 })
 export class VirtualListComponent {
   items = Array.from({length: 100000}).map((_, i) => `Item #${i}`);
-  trackByFn(index: number, item: string): number {
-    return index;
+  trackByFn(index: number, item: string): string {
+    return item;
   }
 }
 ```
